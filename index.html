@@ -1,0 +1,46 @@
+<!-- 
+  ApexPlanet Task: 02/05
+  Project: FlayFly Web Application
+  Uploaded: Wednesday, 15 Jan 2025
+  Author: Praneeth Velicharla
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>FlapFly</title>
+</head>
+<body>
+    <div class="background"></div>
+    <main class="container">
+        <div class="logo">
+            <img src="apexlogo.png" alt="Apex Planet Logo">
+        </div>
+        <div class="form-section">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="illustration">
+            <img src="task2.gif" alt="Illustration">
+        </div>
+    </main>
+    <section id="todoSection" class="todo-container" style="display: none;">
+        <h2>Dynamic To-Do List</h2>
+        <input type="text" id="todoInput" placeholder="Add a new task">
+        <button id="addTodo">Add Task</button>
+        <ul class="todo-list" id="todoList"></ul>
+    </section>
+    <footer>
+        <p>&copy; 2025 Praneeth Velicharla. All rights reserved. </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
